@@ -3,7 +3,7 @@ import React,{useState} from 'react';
 const App = () => {
   const[count,setCount] = useState(0);
   const countIncrease = () => {
-    setCount(prev => prev + 1);
+    setCount(prev => prev + 2);
   }
   const countDecrease = () => {
     setCount(prev => prev - 1);
