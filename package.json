@@ -1,0 +1,20 @@
+{
+  "name": "react_project_mani_dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lankemanikanta/React_Project_Mani_Dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lankemanikanta/React_Project_Mani_Dev/issues"
+  },
+  "homepage": "https://github.com/Lankemanikanta/React_Project_Mani_Dev#readme",
+  "description": ""
+}
