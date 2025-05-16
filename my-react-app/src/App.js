@@ -1,10 +1,15 @@
-import React from 'react';
+import React,{useState} from 'react';
 
 const App = () => {
+  const[state,setState] = useState("");
+  const handleChangeName = () => {
+    setState("Hi This is Mani");
+  }
   return(<>
   <header>
-<h1>this ie new git practice </h1>
-<p>i am manikantaq lerning git</p>
+<h1>this is my React Project </h1>
+<p>{`This is ${state}`}</p>
+<button onClick={handleChangeName}>  Click to Reveal my Name</button>
   </header>
   
   </>)
