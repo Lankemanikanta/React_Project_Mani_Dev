@@ -1,15 +1,20 @@
 import React,{useState} from 'react';
 
 const App = () => {
-  const[state,setState] = useState("");
-  const handleChangeName = () => {
-    setState("Mani");
+  const[count,setCount] = useState(0);
+  const countIncrease = () => {
+    setCount(prev => prev + 1);
+  }
+  const countDecrease = () => {
+    setCount(prev => prev - 1);
   }
   return(<>
   <header>
 <h1>this is my React Project </h1>
-<p>{`This is ${state}`}</p>
-<button onClick={handleChangeName}>  Click to Reveal my Name</button>
+<p>count:{count}</p>
+<button onClick={countIncrease}>  Click to Increase</button>
+<button onClick={countDecrease}>  Click to Decrease</button>
+
   </header>
   
   </>)
