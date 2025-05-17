@@ -3,7 +3,7 @@ import React,{useState} from 'react';
 const App = () => {
   const[state,setState] = useState("");
   const handleChangeName = () => {
-    setState("Mani");
+    setState(prev => prev +2);
   }
   return(<>
   <header>
