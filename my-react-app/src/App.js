@@ -8,7 +8,7 @@ const App = () => {
   return(<>
   <header>
 <h1>this is my React Project </h1>
-<p>{`This is ${state}`}</p>
+<p>count:{handleChangeName}</p>
 <button onClick={handleChangeName}>  Click to Reveal my Name</button>
   </header>
   
