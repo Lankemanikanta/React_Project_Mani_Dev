@@ -1,20 +1,13 @@
-import React,{useState} from 'react';
+import React from 'react';
+import Reset from './Reset';
+function App (){
 
-const App = () => {
-  const[state,setState] = useState("");
-  const handleChangeName = () => {
-    setState(prev => prev +2);
-    setState(prev => prev +1);
-  }
- 
+  return (
+    <center>
+      <Reset/>
+    </center>
+  )
 
-  return(<>
-  <header>
-<h1>this is my React Project </h1>
-<p>count:{handleChangeName}</p>
-<button onClick={handleChangeName}>  Click to Reveal my Name</button>
-  </header>
+}
   
-  </>)
-};
 export default App;
