@@ -7,7 +7,7 @@ const Reset = () => {
  <centrt>
    <h2>Count: {count}</h2>
       <button onClick={() => setCount(count + 2)}>Increment</button>
-      <button onClick={() => setCount(count - 2)}>Decrement</button>
+      <button onClick={() => setCount(count - 1)}>Decrement</button>
       <button onClick={() => setCount(0)}>Reset</button>
  </centrt>
   
